@@ -1,0 +1,49 @@
+.App {
+  font-family: sans-serif;
+}
+.movie-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+img {
+  width: 300px;
+  max-height: 420px;
+}
+.movie-card {
+  border: 1px solid black;
+  border-radius: 14px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
+.stars {
+  position: absolute !important;
+  top: 0;
+  left: 74%;
+  background: white;
+  padding: 5px;
+}
+label {
+  margin: 0;
+}
+.filter {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.search-input {
+  width: 60%;
+}
+input {
+  width: 92%;
+}
+.rate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+p {
+  margin: 0;
+}
